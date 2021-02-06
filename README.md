@@ -1,4 +1,4 @@
-# IPGeo-Grabber-Omegle
+# IPGeo Grabber Omegle
 
 #Descripción
 Este script permite obtener la geolocalización del extraño en un video chat en la plataforma Omegle en tiempo real a través de la captación de la IP pública, gracias la comunicación Peer-to-Peer con WebRTC que sigue la web.
@@ -21,7 +21,12 @@ Este script utiliza la tecnología **WebRTC** la cual nos permite comunicarnos c
 ![WebRTC](https://elandroidelibre.elespanol.com/wp-content/uploads/2015/06/webrtc-2.png)
 <p align="center">WebRTC</p>
 
-Por lo que emplearemos la API ```RTCPeerConnection``` la cual nos permite abrir, mantener y cerrar una conexión con otra persona en Omegle, cuando obtenemos un *Ice Candidate* (**ICE** = Interactive Connectivity Establishment, la cual permite a dos ordenadores hablar con el otro directamente (**Peer-to-Peer**)) lo que buscamos es parsear la información asociada a este  volcandola en un array y enfocandonos en los candidatos UDP del tipo ```srflx``` (Server Reflexive Candidate) que son los generados por el servidor **STUN** el cual devuelve la dirección ip, puerto, estado de la conectividad con la otra persona..., para este caso simplemente obtendremos la dirección pública de la otra persona.
+Por lo que emplearemos la API ```RTCPeerConnection``` la cual nos permite abrir, mantener y cerrar una conexión con otra persona en Omegle, cuando obtenemos un *Ice Candidate* (**ICE** = Interactive Connectivity Establishment, la cual permite a dos ordenadores hablar con el otro directamente (**Peer-to-Peer**)) lo que buscamos es parsear la información asociada a este  volcandola en un array.
+
+<p align="center"><img src = "https://i.ibb.co/2nXHdv2/descarga.png"></p>
+<p align="center">ICE Candidates</p>
+
+En donde nos enfocaremos será en los candidatos UDP del tipo ```srflx``` (Server Reflexive Candidate) que son los generados por el servidor **STUN** el cual devuelve la dirección ip, puerto, estado de la conectividad con la otra persona..., para este caso simplemente obtendremos la dirección pública de la otra persona.
 
 ![STUN/TURN](https://blog.ivrpowers.com/postimages/technologies/ivrpowers-turn-stun-screen.005.jpeg)
 <p align="center">WebRTC, STUN/TURN Server</p>
@@ -30,7 +35,8 @@ Posteriormente obtendremos la geolocalización mediante la web *IpGeolocation.io
 
 Parseamos la respuesta del servidor a *JSON* y formateamos la información que deseamos, mostrandola finalmente por consola.
 
-
+<p align="center"><img src = "https://i.ibb.co/k23rRdt/descarga-1.png"></p>
+<p align="center">Resultados</p>
 
 ## Utilización
 
