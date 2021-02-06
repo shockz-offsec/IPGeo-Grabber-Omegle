@@ -49,4 +49,7 @@ Sigue este tutorial: https://developers.google.com/web/tools/chrome-devtools/rem
 # Comentarios
 
 Este script sólo fue testados en navegadores *Opera, Chrome y Brave* (Deshabilitado Ad-block) tanto en PC como Android.
+
 Este script no funciona para el modo *text chat* de Omegle, sólo para el Video Chat.
+
+En webs/aplicaciones P2P siempre tendrás expuesta tu Ip, usa VPN.
