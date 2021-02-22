@@ -1,6 +1,6 @@
 # IPGeo Grabber Omegle
 
-#Descripción
+# Descripción
 Este script permite obtener la geolocalización del extraño en un video chat en la plataforma Omegle en tiempo real a través de la captación de la IP pública, gracias la comunicación Peer-to-Peer con WebRTC que sigue la web.
 
 
