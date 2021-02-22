@@ -5,7 +5,7 @@ Este script permite obtener la geolocalización del extraño en un video chat en
 
 
 # **AVISO LEGAL Y RENUNCIA DE RESPONSABILIDADES**.
-IPGeo Grabber Omegle es un script con el único fin de educación e investigación para desarrolladores o usuarios finales, y que pueda ayudar a crear contramedidas para las amenzas actuales.
+IPGeo Grabber Omegle es un script con el único fin de educacional y de  investigación para desarrolladores o usuarios finales, y que pueda ayudar a crear contramedidas para las amenazas actuales.
 **NO** asumo ninguna responsabilidad por la forma en que elija utilizar cualquiera de los ejecutables/código fuente de cualquier archivo provistos.
 
 # Diseño y Propósito.
