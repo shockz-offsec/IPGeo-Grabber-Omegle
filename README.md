@@ -18,7 +18,7 @@ Este script pretende de forma divulgativa mostrar la facilidad mendiante la cual
 
 Este script utiliza la tecnología **WebRTC** la cual nos permite comunicarnos con otro usuario en tu navegador web.
 
-![WebRTC](https://elandroidelibre.elespanol.com/wp-content/uploads/2015/06/webrtc-2.png)
+![WebRTC](https://ichi.pro/assets/images/max/724/0*TQJR43OiGbE4K1lS)
 <p align="center">WebRTC</p>
 
 Por lo que emplearemos la API ```RTCPeerConnection``` la cual nos permite abrir, mantener y cerrar una conexión con otra persona en Omegle, cuando obtenemos un *Ice Candidate* (**ICE** = Interactive Connectivity Establishment, la cual permite a dos ordenadores hablar con el otro directamente (**Peer-to-Peer**)) lo que buscamos es parsear la información asociada a este  volcandola en un array.
